@@ -90,7 +90,7 @@ const Board = () => {
         <Tile
           key={`tiles-${index}`}
           tileValue={tileValues[index]}
-          onTileClick={() => !winner && onTileClick(index)}
+          onTileClick={() => onTileClick(index)}
           playerTurn={playerTurn}
           isClickable={!winner}
         />
